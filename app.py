@@ -34,7 +34,7 @@ if not st.session_state.setup_complete:
         st.session_state["skills"] = ""
     
     st.session_state["name"] = st.text_input(label = "Name", max_chars = 40, value = st.session_state["name"], placeholder = "Enter your name")
-    st.session_state["experience"] = st.text_area(label = "Expirience", value = st.session_state["experience"], height = None, max_chars = 200, placeholder = "Describe your experience")
+    st.session_state["experience"] = st.text_area(label = "Experience", value = st.session_state["experience"], height = None, max_chars = 200, placeholder = "Describe your experience")
     st.session_state["skills"] = st.text_area(label = "Skills", value = st.session_state["skills"], height = None, max_chars = 200, placeholder = "List your skills")
 
     # Company and Position Section
